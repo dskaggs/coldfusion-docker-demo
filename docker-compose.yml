@@ -4,6 +4,7 @@ services:
     image: eaps-docker-coldfusion.bintray.io/cf/coldfusion:latest
   environment: 
     - acceptEULA=YES
+    - password=myPassword
   ports:
     - 8500:8500
     
