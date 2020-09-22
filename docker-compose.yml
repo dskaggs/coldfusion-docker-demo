@@ -9,4 +9,3 @@ services:
       - 8500:8500
     volumes:
       - ${PWD}/app:/app
-    
