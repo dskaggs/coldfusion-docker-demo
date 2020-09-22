@@ -4,4 +4,6 @@ services:
     image: eaps-docker-coldfusion.bintray.io/cf/coldfusion:latest
   environment: 
     - acceptEULA=YES
+  ports:
+    - 8500:8500
     
