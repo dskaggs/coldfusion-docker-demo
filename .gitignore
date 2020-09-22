@@ -1,0 +1,5 @@
+app/WEB-INF
+app/crossdomain.xml
+
+logs/*
+!logs/.gitkeep
