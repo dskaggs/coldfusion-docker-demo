@@ -1,0 +1,1 @@
+This folder is where you would put your CAR files. They will be automatically loaded by ColdFusion at startup.
