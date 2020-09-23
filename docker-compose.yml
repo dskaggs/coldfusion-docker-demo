@@ -2,6 +2,6 @@ version: "3"
 services:
   coldfusion:
     image: eaps-docker-coldfusion.bintray.io/cf/coldfusion:latest
-  environment: 
-    - acceptEULA=YES
+    environment: 
+      - acceptEULA=YES
     
