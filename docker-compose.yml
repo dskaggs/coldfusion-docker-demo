@@ -9,4 +9,4 @@ services:
       - 8500:8500
     volumes:
       - ${PWD}/app:/app
-      - ${PWD}/logs/:/opt/coldfusion/cfusion/logs/    
+      - ${PWD}/logs/:/opt/ColdFusion/cfusion/logs/   #Prior to CF2021, path is /opt/coldfusion/cfusion/logs 
