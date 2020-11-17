@@ -5,6 +5,7 @@ services:
     environment: 
       acceptEULA: "YES"
       password: "myPassword"
+      installModules: "caching"
     ports:
       - 8500:8500
     volumes:
