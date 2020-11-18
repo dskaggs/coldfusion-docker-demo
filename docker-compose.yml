@@ -12,7 +12,7 @@ services:
     volumes:
       - ${PWD}/app:/app   
       - ${PWD}/data/:/data
-      - ${PWD}/drivers/mysql-connector-java-8.0.21.jar:/opt/ColdFusion/cfusion/lib/mysql-connecor-java-8.0.21.jar
+      - ${PWD}/drivers/mysql-connector-java-8.0.21.jar:/opt/ColdFusion/cfusion/lib/mysql-connector-java-8.0.21.jar
     networks:
       - internal
 
