@@ -7,7 +7,7 @@ services:
       password: "myPassword"
       installModules: "caching"
       importCFSettings: "settings.json"
-      importCFSettingsPassphrase: "mySuperSecretPassword"
+      #importCFSettingsPassphrase: "mySuperSecretPassword"
     ports:
       - 8500:8500
     volumes:
